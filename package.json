@@ -6,7 +6,9 @@
   "scripts": {
     "up":"node_modules/.bin/knex migrate:latest",
     "down": "node_modules/.bin/knex migrate:rollback",
-    "new-migration": "node_modules/.bin/knex migrate:make"
+    "new-migration": "node_modules/.bin/knex migrate:make",
+    "new-seed": "node_modules/.bin/knex seed:make",
+    "seeding": "node_modules/.bin/knex seed:run"
   },
   "repository": {
     "type": "git",
