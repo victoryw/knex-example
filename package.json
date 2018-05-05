@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/victoryw/knex-example/issues"
   },
-  "homepage": "https://github.com/victoryw/knex-example#readme"
+  "homepage": "https://github.com/victoryw/knex-example#readme",
+  "devDependencies": {
+    "knex": "^0.14.6"
+  },
+  "dependencies": {
+    "pg": "^7.4.2"
+  }
 }
