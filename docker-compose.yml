@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  pars-trading-base-data:
+    build: .
+    environment:
+      - NODE_ENV=${NODE_ENV}
+      - CONNECTION=${CONNECTION}
